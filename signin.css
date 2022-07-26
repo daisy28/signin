@@ -1,0 +1,281 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Mulish', sans-serif;
+}
+
+body{
+    background-color: #eeebeb;
+}
+
+header{
+    padding: 1.5rem;
+}
+
+.nav{
+    display:flex;
+    justify-content: flex-end;
+}
+
+.signup-btn{
+    border: 1.5px solid #2b7a78;
+    border-radius: 10px;
+    padding: .4rem 1rem;
+    background-color: #fff;
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 1.3rem;
+    color: #2b7a78;
+}
+
+.signup-btn:hover,
+.signup-btn:active{
+    border: 1px solid #000;
+    background-color: #2b7a78;
+    color: #fff;
+}
+
+.main h2{
+    text-align: center;
+    color: #272727;
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    padding-bottom: 1rem;
+}
+
+.img-illustration{
+    max-width: 100%;
+    background-color: #b8d3d2;
+}
+
+.img{
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.signin{
+    background-color: #FEFEFE;
+    border-radius: 5px;
+    width: 100%;
+    padding: 1rem;
+}
+
+.form{
+    width: 100%;
+    padding: .5rem;
+}
+
+input{
+    margin: .5rem 0;
+    width: 100%;
+    padding: .8rem 2.3rem;
+    border-radius: 8px;
+    border: 1px solid #BABABA;
+}
+
+.icon,
+.icon2{
+    position: relative;
+}
+
+.icon > img {
+    position: absolute;
+    top: 24px;
+    left: 15px;
+  }
+
+  .icon2 .img1 {
+    position: absolute;
+    bottom: -40px;
+    left: 10px;
+  }
+
+  .icon2 .img2 {
+    position: absolute;
+    bottom: -40px;
+    right: 10px;
+  }
+
+label{
+    color: #525252;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5px;
+}
+
+.psw{
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.psw-remember{
+    display: flex;
+    width: 50%;
+    align-items: center;
+}
+
+.psw-remember input{
+    width: 10%;
+}
+
+.psw-remember p{
+    padding-left: .3rem;
+}
+
+.psw-forgot{
+    display: flex;
+    justify-content: right;
+    width: 50%;
+}
+
+.signin-btn{
+    background-color: #2B7A78;
+    border-radius:10px;
+    width: 100%;
+    padding:.3rem;
+    border: 1px solid #2B7A78;
+    margin-top: 1rem;
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color:#FEFEFE
+}
+
+.signin-btn:hover,
+.signin-btn:active{
+    border: 1px solid #2B7A78;
+    background-color: #fff;
+    color: #2b7a78;
+}
+
+.signin-option{
+    padding: 1rem 0;
+}
+
+.signin-option h2{
+    font-size: 1.2rem;
+}
+
+
+.signin-options{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.signin-options button{
+    width: 45%;
+    padding: .3rem 0;
+    border-radius: 8px;
+    border: 1px solid #2B7A78;
+    background-color: #fff;
+    font-weight: 700;
+    color:#423E3E;
+    font-size: 1.3rem;
+}
+
+.signin-options img{
+    padding-right: .3rem;
+}
+
+.signin-option p{
+   padding-top: 2rem;
+   text-align: center;
+}
+
+b{
+    color: #2B7A78;
+}
+
+
+
+/* MEDIA QUERIES AND RESPONSIVENESS */
+
+@media screen and (min-width:768px){
+   
+    .main{
+        width: 90%;
+        margin:auto;
+        display: flex;
+        font-size: 1.2rem;
+    }
+     .img-illustration{
+        width: 500px;
+        border-bottom-left-radius: 20px;
+        border-top-left-radius: 20px;
+    }
+
+    .signin{
+        padding: 2.5rem;
+        border-bottom-right-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+
+    .main h2{
+        font-weight: 700;
+        font-size: 2rem;
+        padding-bottom: 1.5rem;
+    }
+
+    .signin-btn{
+        padding: .5rem;
+    }
+}
+
+@media screen and (min-width:1024px){
+   
+    .main{
+        width: 80%;
+        margin:auto;
+        display: flex;
+        font-size: 1.5rem;
+    }
+
+    label,
+    .signin-btn a,
+    .signin-option p{
+        font-size: 1.7rem;
+    }
+    .psw{
+        padding: .8rem 0;
+    }
+
+    .signin-btn{
+        padding: .5rem;
+    }
+
+    .signin-options button{
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (min-width:1280px){
+   
+    .main{
+        width: 70%;
+        margin:auto;
+        display: flex;
+    }
+
+    @media screen and (min-width:1440px){
+   
+        .main{
+            width: 80%;
+            margin:auto;
+            display: flex;
+        }
+
+        .img-illustration{
+            width: 600px;
+        }
+    
+        .signin{
+            width:880px;
+        }
+    }
+}
+
