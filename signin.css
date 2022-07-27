@@ -186,8 +186,6 @@ label {
 
 .btn-icon:hover,
 .btn-icon:focus {
-  background-color: #2b7a78;
-  color: #fff;
   cursor: pointer;
 }
 
