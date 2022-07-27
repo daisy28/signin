@@ -30,6 +30,7 @@ body {
   font-size: 1rem;
   line-height: 1.3rem;
   color: #2b7a78;
+  text-decoration: none;
 }
 
 .signup-btn:hover,
@@ -99,6 +100,7 @@ input:focus {
   position: absolute;
   bottom: -45px;
   right: 10px;
+  cursor: pointer;
 }
 
 label {
@@ -118,8 +120,8 @@ label {
   align-items: center;
 }
 
-.psw-remember p a {
-  padding-left: 0.3rem;
+.psw-remember label{
+  padding-left: 0.5rem;
   text-decoration: none;
   color: #525252;
 }
@@ -178,6 +180,8 @@ label {
 .btn-icon {
   display: flex;
   justify-content: center;
+  width: 50%;
+  height: 50%;
 }
 
 .btn-icon:hover,
