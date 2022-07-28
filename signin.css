@@ -7,14 +7,14 @@
 
 body {
   background-color: #eeebeb;
-  padding: 1rem;
+  padding: 0.5rem;
 }
 
 .nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-bottom: 3.5rem;
+  padding-bottom: 3rem;
 }
 
 .nav p {
@@ -23,25 +23,27 @@ body {
 }
 
 .signup-btn {
-  border: 0.5px solid #2b7a78;
-  border-radius: 10px;
-  padding: 0.6rem 1rem;
+  border-radius: 8px;
+  padding: 0.5rem 2rem;
   font-weight: 600;
   font-size: 1rem;
-  line-height: 1.3rem;
-  color: #2b7a78;
+  line-height: 1.5rem;
+  background-color: #2b7a78;
+  color: #fff;
   text-decoration: none;
+  width: 124px;
+  height: 40px;
 }
 
 .signup-btn:hover,
 .signup-btn:focus {
-  background-color: #2b7a78;
+  background-color: #037067;
   color: #fff;
   cursor: pointer;
 }
 
 .img-illustration {
-  background-color: #b8d3d2;
+  background-color: #72a6a5;
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
 }
@@ -56,6 +58,7 @@ body {
   padding: 2rem;
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
+  height: 700px;
 }
 
 .signin h2 {
@@ -63,14 +66,14 @@ body {
   color: #272727;
   font-weight: 700;
   font-size: 1.5rem;
-  line-height: 2rem;
+  line-height: 2.25rem;
   padding: 2rem;
 }
 
 .form-input {
   margin: 0.6rem 0;
   width: 100%;
-  padding: 1rem 2.6rem;
+  padding: 0.75rem 2.5rem;
   border-radius: 8px;
   border: 1px solid #bababa;
 }
@@ -86,19 +89,19 @@ input:focus {
 
 .icon > img {
   position: absolute;
-  top: 26px;
+  top: 22px;
   padding-left: 0.8rem;
 }
 
 .icon2 .img1 {
   position: absolute;
-  bottom: -45px;
+  bottom: -38px;
   padding-left: 0.8rem;
 }
 
 .icon2 .img2 {
   position: absolute;
-  bottom: -45px;
+  bottom: -42px;
   right: 10px;
   cursor: pointer;
 }
@@ -106,7 +109,8 @@ input:focus {
 label {
   color: #525252;
   font-size: 1rem;
-  line-height: 1.5px;
+  line-height: 1.5rem;
+  font-weight: 400;
 }
 
 .psw {
@@ -120,10 +124,15 @@ label {
   align-items: center;
 }
 
-.psw-remember label{
+.psw-remember label {
   padding-left: 0.5rem;
   text-decoration: none;
   color: #525252;
+}
+
+.checkbox {
+  width: 20px;
+  height: 20px;
 }
 
 .psw-forgot {
@@ -135,17 +144,16 @@ label {
   text-decoration: none;
   color: #2b7a78;
   font-weight: 600;
-  text-align: right;
 }
 .password {
   margin-bottom: 1.5rem;
 }
-
 .signin-btn {
   background-color: #2b7a78;
-  border-radius: 10px;
+  border-radius: 8px;
   width: 100%;
-  padding: 0.5rem;
+  height: 48px;
+  padding: 0.75rem 2rem;
   border: none;
   margin-top: 1.5rem;
   font-weight: 600;
@@ -168,9 +176,9 @@ label {
 
 .signin-options .btn-icon {
   width: 45%;
-  padding: 0.7rem;
-  border-radius: 10px;
-  border: 1px solid #2b7a78;
+  padding: 0.75rem 0.625rem;
+  border-radius: 8px;
+  border: 0.5px solid #2b7a78;
   background-color: #fff;
   font-weight: 700;
   color: #423e3e;
@@ -180,14 +188,15 @@ label {
 .btn-icon {
   display: flex;
   justify-content: center;
-  width: 50%;
-  height: 50%;
+}
+
+.btn-icon img{
+  width: 23.67px;
+  height:24px;
 }
 
 .btn-icon:hover,
 .btn-icon:focus {
-  background-color: #2b7a78;
-  color: #fff;
   cursor: pointer;
 }
 
@@ -196,7 +205,7 @@ label {
 }
 
 .signin-option .signup-text {
-  padding: 3rem;
+  padding: 1.5rem;
   text-align: center;
 }
 
@@ -214,39 +223,62 @@ label {
     margin: auto;
   }
   .signin-option .signup-text,
-  .psw {
-    font-size: 1.3rem;
+  .psw,
+  label {
+    font-size: 1.4rem;
   }
   .checkbox {
-    width: 20px;
-    height: 20px;
+    width: 24px;
+    height: 24px;
   }
 }
 @media screen and (min-width: 1024px) {
+  body {
+    width: 1440px;
+    height: 912px;
+  }
   .main {
-    width: 80%;
-    height: 750px;
+    width: 996px;
+    height: 712px;
     margin: auto;
     display: flex;
   }
-
   .img-illustration {
-    width: 40%;
-    border-bottom-left-radius: 20px;
-    border-top-left-radius: 20px;
+    width: 406px;
+    height: 712px;
+    border-bottom-left-radius: 32px;
+    border-top-left-radius: 32px;
     border-top-right-radius: 0;
+    position: relative;
   }
-
+  .img {
+    width: 326.08px;
+    height: 259.09px;
+    position: absolute;
+    top: 169.48px;
+    left: 20px;
+  }
   .signin {
-    padding: 2.5rem;
-    width: 70%;
-    border-bottom-right-radius: 20px;
-    border-top-right-radius: 20px;
+    padding: 2rem 6rem;
+    width: 590px;
+    height: 712px;
+    border-bottom-right-radius: 32px;
+    border-top-right-radius: 32px;
     border-bottom-left-radius: 0;
   }
+  .form {
+    width: 400px;
+  }
   .signin-btn {
-    padding: 0.9rem;
+    height: 48px;
+    padding: 0.75rem 2rem;
     font-weight: 600;
     font-size: 1.3rem;
+  }
+  .signin-option h2 {
+    padding: 1.5rem;
+    font-weight: 700;
+    font-size: 1.3rem;
+    line-height: 1.5rem;
   }
 }
