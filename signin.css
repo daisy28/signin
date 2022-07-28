@@ -17,9 +17,11 @@ body {
   padding-bottom: 3rem;
 }
 
-.nav p {
+.website-logo{
   font-size: 1.5rem;
   font-weight: 700;
+  text-decoration: none;
+  color: #2b7a78;
 }
 
 .signup-btn {
