@@ -79,7 +79,8 @@ body {
   width: 100%;
   padding: 0.75rem 2.5rem;
   border-radius: 8px;
-  border: 1px solid #bababa;
+  border: 1px solid #272727;
+  font-size: 1.125rem;
 }
 
 .icon,
@@ -89,19 +90,19 @@ body {
 
 .icon > img {
   position: absolute;
-  top: 18px;
+  top: 22px;
   padding-left: 0.8rem;
 }
 
 .icon2 .img1 {
   position: absolute;
-  bottom: -35px;
+  bottom: -38px;
   padding-left: 0.8rem;
 }
 
 .icon2 .img2 {
   position: absolute;
-  bottom: -39px;
+  bottom: -42px;
   right: 10px;
   cursor: pointer;
 }
