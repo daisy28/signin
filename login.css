@@ -22,6 +22,7 @@ body {
   font-weight: 700;
   text-decoration: none;
   color: #2b7a78;
+  line-height:36px;
 }
 
 .signup-btn {
@@ -47,20 +48,15 @@ body {
 
 .img-illustration {
   background-color: #72a6a5;
-  border-top-left-radius: 15px;
-  border-top-right-radius: 15px;
-}
-
-.img {
-  height: 100%;
-  width: 100%;
+  border-top-left-radius: 32px;
+  border-top-right-radius: 32px;
 }
 
 .signin {
   background-color: #fefefe;
   padding: 2rem;
-  border-bottom-left-radius: 15px;
-  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 32px;
+  border-bottom-right-radius: 32px;
   height: 700px;
 }
 
@@ -69,20 +65,16 @@ body {
   color: #272727;
   font-weight: 700;
   font-size: 1.5rem;
-  line-height: 2.25rem;
-  padding: 2rem;
+  line-height: 2rem;
+  padding: 1rem;
 }
 
 .form-input {
-  margin: 0.6rem 0;
+  margin: 0.4rem 0;
   width: 100%;
   padding: 0.75rem 2.5rem;
   border-radius: 8px;
   border: 1px solid #bababa;
-}
-
-input:focus {
-  outline-color: #2b7a78;
 }
 
 .icon,
@@ -92,21 +84,25 @@ input:focus {
 
 .icon > img {
   position: absolute;
-  top: 22px;
+  top: 18px;
   padding-left: 0.8rem;
 }
 
 .icon2 .img1 {
   position: absolute;
-  bottom: -38px;
+  bottom: -35px;
   padding-left: 0.8rem;
 }
 
 .icon2 .img2 {
   position: absolute;
-  bottom: -42px;
+  bottom: -39px;
   right: 10px;
   cursor: pointer;
+}
+
+input:focus {
+  outline-color: #2b7a78;
 }
 
 label {
@@ -147,6 +143,8 @@ label {
   text-decoration: none;
   color: #2b7a78;
   font-weight: 600;
+  font-size: 1rem;
+  line-height: 24px;
 }
 .password {
   margin-bottom: 1.5rem;
@@ -172,6 +170,13 @@ label {
   cursor: pointer;
 }
 
+.signin-option h2 {
+  padding: 1.5rem;
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
 .signin-options {
   display: flex;
   justify-content: space-between;
@@ -185,12 +190,13 @@ label {
   background-color: #fff;
   font-weight: 700;
   color: #423e3e;
-  font-size: 1.3rem;
+  font-size: 1rem;
 }
 
 .btn-icon {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .btn-icon img{
@@ -208,8 +214,10 @@ label {
 }
 
 .signin-option .signup-text {
-  padding: 1.5rem;
+  padding: 1rem;
   text-align: center;
+  font-weight: 400;
+  line-height: 24px;
 }
 
 .cta {
@@ -224,11 +232,6 @@ label {
     padding: 2.5rem;
     max-width: 90%;
     margin: auto;
-  }
-  .signin-option .signup-text,
-  .psw,
-  label {
-    font-size: 1.4rem;
   }
   .checkbox {
     width: 24px;
@@ -272,16 +275,5 @@ label {
   .form {
     width: 400px;
   }
-  .signin-btn {
-    height: 48px;
-    padding: 0.75rem 2rem;
-    font-weight: 600;
-    font-size: 1.3rem;
-  }
-  .signin-option h2 {
-    padding: 1.5rem;
-    font-weight: 700;
-    font-size: 1.3rem;
-    line-height: 1.5rem;
-  }
+  
 }
