@@ -162,6 +162,7 @@ input:focus {
   font-size: 1rem;
   line-height: 1.5rem;
   color: #fefefe;
+  cursor: pointer;
 }
 
 .signin-option h2 {
