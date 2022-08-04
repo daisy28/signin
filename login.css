@@ -247,6 +247,10 @@ input:focus {
     width: 24px;
     height: 24px;
   }
+
+  .form input{
+    background-color: #fff;
+  }
 }
 @media screen and (min-width: 1024px) {
   .main {
@@ -262,12 +266,13 @@ input:focus {
     border-top-left-radius: 32px;
     border-top-right-radius: 0;
     position: relative;
+    background-color: rgb(114, 166, 165);
   }
   .img {
     width: 326.08px;
     height: 259.09px;
     position: absolute;
-    top: 130px;
+    top: 169.48px;
     left: 20px;
   }
   .signin {
@@ -277,7 +282,9 @@ input:focus {
     border-bottom-right-radius: 32px;
     border-top-right-radius: 32px;
     border-bottom-left-radius: 0;
+    background-color: #fff;
   }
+
   .form {
     width: 400px;
   }
